@@ -192,7 +192,7 @@ async def hcomp(event):
     if not os.path.isdir("encodemedia"):
         await event.delete()
         os.mkdir("encodemedia")
-        await compress(event, msg, ffmpeg_cmd=1)
+        await compress(event, msg, ffmpeg_cmd=7)
         if os.path.isdir("encodemedia"):
             os.rmdir("encodemedia")
     else:
