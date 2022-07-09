@@ -1,7 +1,7 @@
 #Don't be a thief by stealing other's Hardwork, it took time and effort to make this repo.
 #Respect my work by not making any changes here.
 
-START_TEXT = "ENVIE O VIDEO"
+START_TEXT = "ENVIE O CRIATIVO"
 
 FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
 

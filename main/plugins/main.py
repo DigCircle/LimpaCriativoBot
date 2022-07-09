@@ -34,7 +34,7 @@ async def compin(event):
             if 'video' in video:
                 await event.reply("📽",
                             buttons=[  
-                                [Button.inline("LIMPAR", data="compress")]])
+                                [Button.inline("LIMPAR CRIATIVO", data="hcomp")]])
             elif 'png' in video:
                 return
             elif 'jpeg' in video:
