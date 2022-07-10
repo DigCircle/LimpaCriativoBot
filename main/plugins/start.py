@@ -65,7 +65,7 @@ async def help(event):
 async def plugins(event):
     await event.edit(f'{help_text}',
                     buttons=[[
-                         Button.inline("Menu.", data="help")]])
+                         Button.inline("Envie 1 arquivo por vez.", data="help")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="sett"))
 async def sett(event):    

@@ -30,7 +30,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     Drone = event.client
     if ps_name is None:
         ps_name = '**COMPRESSING:**'
-    edit = await Drone.send_message(event.chat_id, "Trying to process.", reply_to=msg.id)
+    edit = await Drone.send_message(event.chat_id, "Processando...", reply_to=msg.id)
     new_name = "out_" + dt.now().isoformat("_", "seconds")
     if hasattr(msg.media, "document"):
         file = msg.media.document
