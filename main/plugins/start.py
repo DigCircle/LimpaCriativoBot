@@ -25,7 +25,7 @@ from ethon.mystarts import vc_menu
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                              [Button.inline("Menu.", data="")]
+                              [Button.inline("Envie 1 arquivo por vez.", data="")]
                               ])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
@@ -65,7 +65,7 @@ async def help(event):
 async def plugins(event):
     await event.edit(f'{help_text}',
                     buttons=[[
-                         Button.inline("Envie 1 arquivo por vez.", data="help")]])
+                         Button.inline("Menu.", data="help")]])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="sett"))
 async def sett(event):    
