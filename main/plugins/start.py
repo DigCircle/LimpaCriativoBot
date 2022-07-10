@@ -21,5 +21,5 @@ from LOCAL.localisation import info_text, spam_notice, help_text, DEV, source_te
 from ethon.teleutils import mention
 from ethon.mystarts import vc_menu
 
-@Drone.on(events.NewMessage(incoming=True, pattern="/limpar"))
+@Drone.on(events.NewMessage(incoming=True, pattern="/start"))
 
