@@ -1,7 +1,7 @@
 #Don't be a thief by stealing other's Hardwork, it took time and effort to make this repo.
 #Respect my work by not making any changes here.
 
-START_TEXT = "ENVIE O CRIATIVO"
+START_TEXT = "ENVIE O CRIATIVO PARA COMEÇAR"
 
 FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
 
@@ -31,7 +31,7 @@ source_text = "**Deploy your own bot**"
 
 DEV = "https://t.me/13147534857439579348573985794"
 
-spam_notice = "This bot is hosted on heroku, and hence can just run one process at a time.Spamming the bot or encoding adult videos will lead you to a ban."
+spam_notice = "Carregue 1 arquivo de criativo por vez e clique no botão *LIMPAR CRIATIVO*"
 
 JPG = "LOCAL/video_convertor.jpg"
 
