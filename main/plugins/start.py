@@ -24,9 +24,7 @@ from ethon.mystarts import vc_menu
 @Drone.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
     await event.reply(f'{st}', 
-                      buttons=[
-                              [Button.inline("Menu.", data="menu")]
-                              ])
+                   
     
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
 async def menu(event):
