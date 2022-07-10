@@ -21,11 +21,11 @@ from LOCAL.localisation import info_text, spam_notice, help_text, DEV, source_te
 from ethon.teleutils import mention
 from ethon.mystarts import vc_menu
 
-@Drone.on(events.NewMessage(incoming=True, pattern="/limpar"))
+@Drone.on(events.NewMessage(incoming=True, pattern="/start"))
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                              [Button.inline("Envie 1 arquivo por vez.", data="")]
+                              [Button.inline("COMO USAR", data="notice")]
                               ])
     
 @Drone.on(events.callbackquery.CallbackQuery(data="menu"))
