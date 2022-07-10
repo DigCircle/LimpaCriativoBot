@@ -32,7 +32,7 @@ async def compin(event):
         if media:
             video = event.file.mime_type
             if 'video' in video:
-                await event.reply("📽",
+                await event.reply("CLIQUE ABAIXO PARA CONTINUAR!",
                             buttons=[  
                                 [Button.inline("LIMPAR CRIATIVO", data="hcomp")]])
             elif 'png' in video:
