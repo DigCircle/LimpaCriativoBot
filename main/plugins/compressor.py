@@ -29,7 +29,7 @@ from LOCAL.utils import ffmpeg_progress
 async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
     Drone = event.client
     if ps_name is None:
-        ps_name = '**COMPRESSING:**'
+        ps_name = '**Limpando Criativo:**'
     edit = await Drone.send_message(event.chat_id, "Processando...", reply_to=msg.id)
     new_name = "out_" + dt.now().isoformat("_", "seconds")
     if hasattr(msg.media, "document"):
