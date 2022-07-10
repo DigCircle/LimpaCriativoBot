@@ -62,7 +62,7 @@ async def compress(event, msg, ffmpeg_cmd=0, ps_name=None):
         return await edit.edit(f"An error occured while downloading.\n\nContact [SUPPORT]({SUPPORT_LINK})", link_preview=False) 
     name =  '__' + dt.now().isoformat("_", "seconds") + ".mp4"
     os.rename(n, name)
-    await edit.edit("Extracting metadata...")
+    await edit.edit("Limpando metadados...")
     vid = video_metadata(name)
     hgt = int(vid['height'])
     wdt = int(vid['width'])
