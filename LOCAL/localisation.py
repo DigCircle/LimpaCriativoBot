@@ -3,7 +3,7 @@
 
 START_TEXT = "ENVIE O CRIATIVO PARA COMEÇAR"
 
-FORCE_SUB_TEXT = "In order to use this bot, you've to join my parent channel."
+FORCE_SUB_TEXT = "Ainda em fase de testes..."
 
 CHANNEL_LINK = ""
 
@@ -27,7 +27,7 @@ help_text = """**v1.4**
 
 •`Trim` - cut your videos"""
 
-source_text = "**Deploy your own bot**"
+source_text = "**Ainda em fase de testes...**"
 
 DEV = "https://t.me/13147534857439579348573985794"
 
