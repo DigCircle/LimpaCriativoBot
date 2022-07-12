@@ -31,7 +31,7 @@ source_text = "**Deploy your own bot**"
 
 DEV = "https://t.me/13147534857439579348573985794"
 
-spam_notice = "Carregue 1 arquivo de criativo por vez e clique no botão *LIMPAR CRIATIVO*"
+spam_notice = "Carregue 1 arquivo de vídeo por vez e clique no botão *LIMPAR CRIATIVO*"
 
 JPG = "LOCAL/video_convertor.jpg"
 
